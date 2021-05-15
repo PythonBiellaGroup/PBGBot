@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pbgbot"
+version = "0.1.0"
+description = "Bot Telegram PBG"
+authors = ["PBG"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyTelegramBotAPI = "^3.7.8"
+Flask = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
